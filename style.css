@@ -1,0 +1,43 @@
+body{
+    font-family: 'DotGothic16', sans-serif;
+    background-image: url("https://st2.depositphotos.com/3369547/7425/v/950/depositphotos_74251581-stock-illustration-mustache-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+width: 50%;
+box-shadow: 10px 10px 20px red;
+color: aliceblue;
+font-size: larger;
+letter-spacing: 5px;
+padding: 10px;
+}
+
+#button{
+    font-size: large;
+    letter-spacing: 3px;
+
+}
+
+#button:hover{
+    background-color: greenyellow;
+}
+
+canvas{
+    border: 10px ridge black;
+    animation-name: myshadows;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+
+}
+
+@keyframes myshadows{
+    from{
+        box-shadow: 20px 20px 60px red;
+    }
+    to{
+        box-shadow: 20px 20px 60px orange;
+    }
+}
