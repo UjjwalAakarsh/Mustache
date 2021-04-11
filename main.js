@@ -16,7 +16,7 @@ function setup(){
 
 function draw(){
     image(video,0,0,500,500)
-    image(img,nose_x-10,nose_y-10,50,50)
+    image(img,nose_x-20,nose_y-10,50,50)
     
 }
 
